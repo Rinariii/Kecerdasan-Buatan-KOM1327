@@ -1,5 +1,8 @@
 # Jawaban LKP 11
 ## 1. Jika diketahui bahwa pasien memiliki High Blood Pressure. Berapa peluang pasien itu menderita Heart Disease?
+
+![Gambar Bayesian Network](Bayesian.png)
+
 Misalkan Blood Pressure = BP , Heart Disease = HD, Exercise = E, Disease = D.
 
 Maka untuk mencari peluang `P(HD|BP)` dapat menggunakan rumus : 
