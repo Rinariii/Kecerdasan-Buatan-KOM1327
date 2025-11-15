@@ -11,3 +11,4 @@ jangan nyontek 100% yhh semangat.
 ---
 
 ## Silahkan pilih LKP / Tugas yang ingin dicek (Update perminggu)
+./Minggu11
