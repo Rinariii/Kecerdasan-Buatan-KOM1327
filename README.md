@@ -4,9 +4,9 @@ Repository ini berisi kumpulan solusi Lembar Kerja Praktikum (LKP) untuk mata ku
 Seluruh jawaban ditulis sendiri oleh saya dan **masih perlu dicek ulang** untuk jawabannya hehe.
 
 ## Notes:  
-Jadikan sebagai referensi / bantuan saat pengerjaan.  
+Jadikan sebagai referensi saja.  
 Setiap angkatan mungkin berbeda tipe soal sehingga mohon untuk diperhatikan.  
-Kalau sama jangan nyontek yhh semangat.
+jangan nyontek 100% yhh semangat.
 
 ---
 
