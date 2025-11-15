@@ -4,5 +4,5 @@ Repository ini berisi solusi Lembar Kerja Praktikum (LKP) untuk mata kuliah **KO
 
 ---
 
-## Silahkan pilih LKP / Tugas yang ingin dicek (Update perminggu)
-[LKP + SOAL Minggu 11](./Minggu11)
+## SOAL LKP (Update perminggu)
+[LKP Minggu 11](./Minggu11)
