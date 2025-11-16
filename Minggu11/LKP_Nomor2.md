@@ -119,13 +119,13 @@ $$
 Maka untuk menghitung P(CP)
 
 $$
-P(CP) = 0.4763 \cdot O.7 + 0.6057 \cdot 0.3 = 0.51512 
+P(CP) = 0.4763 \cdot O.7 + 0.6057 \cdot 0.3 = 0.5151 
 $$
 
 Sehingga untuk menghitung `P(E|CP)`
 
 $$
-P(E \mid CP) = \frac{0.4763\cdot 0.7}{0.51512} = 0.6471
+P(E \mid CP) = \frac{0.4763\cdot 0.7}{0.5151} = 0.6473
 $$
 
-Sehingga peluang bahwa pasien mengalami Chest Pain, dan peluang pasien melakukan Exercise adalah **0.6471**
+Sehingga peluang bahwa pasien mengalami Chest Pain, dan peluang pasien melakukan Exercise adalah **0.6473**
