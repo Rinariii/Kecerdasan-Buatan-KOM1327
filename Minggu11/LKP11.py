@@ -1,6 +1,8 @@
 from pgmpy.models import DiscreteBayesianNetwork
 from pgmpy.factors.discrete import TabularCPD
 from pgmpy.inference import VariableElimination
+import networkx as nx
+import matplotlib.pyplot as plt
 
 model = DiscreteBayesianNetwork([('Exercise','HeartDisease'),
                          ('Diet','HeartDisease'),
@@ -62,3 +64,19 @@ print(result)
 #Query :  Jika diketahui bahwa pasien mengalami Chest Pain, berapa peluang pasien melakukan Exercise?
 result2 = inference.query(variables=['Exercise'],evidence={'ChestPain' : 1})
 print(result2)
+
+#Visualisasi Bayesian Network
+markov_model = model.to_markov_model()
+# Create a NetworkX graph
+G = nx.DiGraph() s
+G.add_nodes_from(markov_model.nodes())
+G.add_edges_from(markov_model.edges())
+# Draw the Bayesian Network
+plt.figure(figsize=(8, 6))
+pos = nx.spring_layout(G)
+nx.draw(G, pos, with_labels=True, node_size=3000,
+node_color='lightblue',
+font_size=12, font_weight='bold', edge_color='gray',arrowsize=20)
+plt.title("Bayesian Network Structure")
+plt.show()
+
