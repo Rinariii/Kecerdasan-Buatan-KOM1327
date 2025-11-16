@@ -68,7 +68,7 @@ print(result2)
 #Visualisasi Bayesian Network
 markov_model = model.to_markov_model()
 # Create a NetworkX graph
-G = nx.DiGraph() s
+G = nx.DiGraph()
 G.add_nodes_from(markov_model.nodes())
 G.add_edges_from(markov_model.edges())
 # Draw the Bayesian Network
@@ -79,4 +79,5 @@ node_color='lightblue',
 font_size=12, font_weight='bold', edge_color='gray',arrowsize=20)
 plt.title("Bayesian Network Structure")
 plt.show()
+
 
