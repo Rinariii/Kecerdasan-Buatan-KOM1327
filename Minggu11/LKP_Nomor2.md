@@ -64,7 +64,7 @@ Dari gambar bayesian network diatas kita dapat mengetahui bahwa:
 | $P(HD \mid E,\neg D)$| 0.45|
 | $P(\neg HD \mid E,\neg D)$ | 0.55|
 | $P(HD \mid \neg E,D)$ | 0.55|
-| $P(\neg CP \mid \neg E,D)$ | 0.45|
+| $P(\neg HD \mid \neg E,D)$ | 0.45|
 | $P(HD \mid \neg E,\neg D)$ | 0.75|
 | $P(\neg HD \mid \neg E,\neg D)$ | 0.25|
 | $P(HB \mid D)$ | 0.2|
